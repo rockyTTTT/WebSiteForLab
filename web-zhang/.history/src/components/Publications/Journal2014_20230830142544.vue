@@ -1,0 +1,36 @@
+<template>
+    <div class="publications_content_year">
+        <div class="publications_content">
+            <ul>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #C45911;">genom</span>]&nbsp;W. Wang, B. Feng, J. Xiao, Z. Xia, X. Zhou, P. Li, <b>W. Zhang</b>, et al., Cassava genome from a wild ancestor to cultivated varieties,<u><i> Nature Communications</i></u>, 5:5110, 2014. </li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #C45911;">genom</span>]&nbsp;S. Climer, A. Templeton and<b>W. Zhang*</b> , Allele-specific network reveals combinatorial interactions that transcends small effects in psoriasis GWAS, <u><i>PLOS Computational Biology</i></u>, 10(9):e1003766, 2014.</li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #2E74B5;">ncRNA</span>]&nbsp;J. Xia and <b>W. Zhang*</b>, MicroRNAs in normal and psoriatic skin, Physiological Genomics, 46(4):113-22, 2014, invited review.</li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #4472C4;">ml/dm</span>]&nbsp;D. He, D. Jin, Z. Chen and <b>W. Zhang*</b>, Identification of hybrid node and link communities in complex networks, <u><i>Scientific Reports</i></u>, 5:8638, 2015.</li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #76923C;">PCMM</span>]&nbsp;J. Wang, <b>S. Qiu</b>, S. Chen, C. Xiong, H. Liu, J. Wang, N. Zhang, J. Hou, Q. He, Z. Nie. MALDI-TOF MS imaging of metabolites with a N-(1-naphthyl) ethylenediamine dihydrochloride matrix and its application to colorectal cancer liver metastasis. <u><i>Anal Chem</i></u>, 87:422-430, 2015.</li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #76923C;">PCMM</span>]&nbsp;<b>S. Qiu</b>, Z. Xiao, C. Piao, J. Zhang, Y. Dong, W. Cui, X. Liu, Y. Zhang, J. Du. AMPKalpha2 reduces renal epithelial transdifferentiation and inflammation after injury through interaction with CK2beta. <u><i>J Pathol</i></u>, 237:330-342, 2015.</li>
+            </ul>
+        </div>
+    </div>
+
+ </template>
+
+ <script>
+    export default {
+    }
+</script>
+
+<style lang="less" scoped>
+.publications_content_year{
+   float: right;
+   background-color: #fff;
+   height: auto;
+   width: 848px;
+   padding-top: 10px;
+//    padding-left: 10px;
+}
+
+.text_area{
+    cursor: pointer;
+    .hoverShadow();
+}
+</style>

@@ -1,0 +1,33 @@
+<template>
+    <div class="publications_content_year">
+        <div class="publications_content">
+            <ul>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #4472C4;">ml/dm</span>]&nbsp;Z. Chen, M. Chen, K. Weinberger and <b> W. Zhang</b>, Marginalized denoising for link prediction and multi-label learning, <i>Proc. 29th AAAI Conf on Artificial Intelligence</i> (AAAI-15)</li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #4472C4;">ml/dm</span>]&nbsp;D. Jin, Z. Chen, D. He and W. Zhang, Modeling with node degree preservation can accurately find communities, Proc. 29th AAAI Conf on Artificial Intelligence (AAAI-15)</li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #4472C4;">ml/dm</span>]&nbsp;</li>
+            </ul>
+        </div>
+    </div>
+
+ </template>
+
+ <script>
+    export default {
+    }
+</script>
+
+<style lang="less" scoped>
+.publications_content_year{
+   float: right;
+   background-color: #fff;
+   height: auto;
+   width: 848px;
+   padding-top: 10px;
+//    padding-left: 10px;
+}
+
+.text_area{
+    cursor: pointer;
+    .hoverShadow();
+}
+</style>

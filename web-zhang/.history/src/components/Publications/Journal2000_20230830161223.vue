@@ -1,0 +1,31 @@
+<template>
+    <div class="publications_content_year">
+        <div class="publications_content">
+            <ul>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #F4B083;">AI</span>]&nbsp;M. Tambe and <b>W. Zhang</b>, Towards ﬂexible team work in persistent teams: Extended report, <u><i>Autonomous Agents and Multi-Agent Systems</i></u>, 3(2):159-83, 2000. (<span style="color: #0070C0;">Best of ICMAS-98</span>).</li>
+            </ul>
+        </div>
+    </div>
+
+ </template>
+
+ <script>
+    export default {
+    }
+</script>
+
+<style lang="less" scoped>
+.publications_content_year{
+   float: right;
+   background-color: #fff;
+   height: auto;
+   width: 848px;
+   padding-top: 10px;
+//    padding-left: 10px;
+}
+
+.text_area{
+    cursor: pointer;
+    .hoverShadow();
+}
+</style>

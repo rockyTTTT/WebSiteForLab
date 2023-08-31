@@ -1,0 +1,39 @@
+<template>
+    <div class="publications_content_year">
+        <div class="publications_content">
+            <ul>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #2E74B5;">ncRNA</span>]&nbsp;<b>W. Zhang*</b>, S. Guo, J. Xia, X. Zhou, P. Chellappan, X. Zhou, X. Zhang and H. Jin*, Multiple distinct small RNAs originated from the same microRNA precursors, <u><i>Genome Biology</i></u>, 11:R81, 2010.</li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #2E74B5;">ncRNA</span>]&nbsp;P. Chellappan, J. Xia, X. Zhou, S. Gao, X. Zhang, G. Coutino, F. Vazquez, <b>W. Zhang*</b> and H. Jin*, siRNAs from miRNA sites mediate DNA methylation of target genes, <u><i>Nucleic Acids Research</i></u>, 38(20):6883-94, 2010.</li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #2E74B5;">ncRNA</span>]&nbsp;C. Zeng, W. Wang, Y. Zheng, X. Chen, X. Bo, S. Song, <b>W. Zhang*</b>, M. Peng*, Conservation and divergence of microRNAs and their functions in Euphorbiaceous plants, Nucleic Acids Research, 38(3):981- 95, 2010.</li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #2E74B5;">ncRNA</span>]&nbsp;</li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #2E74B5;">ncRNA</span>]&nbsp;</li>
+
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #2E74B5;">ncRNA</span>]&nbsp;</li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #76923C;">PCMM</span>]&nbsp;C. Piao, L. Cai,<b> S. Qiu</b>, L. Jia, W. Song, J. Du. Complement 5a Enhances Hepatic Metastases of Colon Cancer via Monocyte Chemoattractant Protein-1-mediated Inflammatory Cell Infiltration. <u><i>J Biol Chem</i></u>, 290:10667-10676, 2015.</li>
+
+            </ul>
+        </div>
+    </div>
+
+ </template>
+
+ <script>
+    export default {
+    }
+</script>
+
+<style lang="less" scoped>
+.publications_content_year{
+   float: right;
+   background-color: #fff;
+   height: auto;
+   width: 848px;
+   padding-top: 10px;
+//    padding-left: 10px;
+}
+
+.text_area{
+    cursor: pointer;
+    .hoverShadow();
+}
+</style>

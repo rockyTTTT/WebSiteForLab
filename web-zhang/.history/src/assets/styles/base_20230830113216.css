@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-width: 1100px;
+    height: 100%;
+    font-size: 14px;
+    font-family: '微软雅黑',Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* 提取版心 */
+.w {
+   width: 1100px;
+   margin: 0 auto;
+}
+ .content{
+   width: 1208px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 10px;
+}
+
+
+.title{
+   line-height: 26px;
+   height: 26px;
+   padding:30px 0 30px 90px;
+}
+
+.title_span{
+   /* font-weight:500; */
+   color: rgba(0, 0, 0, .85);
+   font-size: 28px;
+}
+
+.nav_content{
+   background-color: #FAFAFA;
+   display: inline-block;
+   padding-left: 144.5px;
+   overflow-y: auto;
+}
+
+.research-content{
+   float: right;
+   background-color: #fff;
+   height: auto;
+   width: 908px;
+   padding-top: 72px;
+   padding-left: 10px;
+}
+
+.research_title{
+   font-size: 24px;
+   font-weight: bold;
+   padding-bottom: 20px;
+   padding-left: 10px;
+   font-style: italic;
+   overflow-y: auto;
+}
+
+.research_sentence{
+   font-size: 18px;
+   letter-spacing: 1px;
+   padding-bottom: 20px;
+   padding-left: 10px;
+   text-align: justify;
+}
+
+.research_link{
+   color: #C91523;
+}
+
+.research_img{
+   margin-left: 10%;
+   width: 690px;
+   padding-bottom: 20px;
+}
+
+.icon{
+   width: 22px;
+   height: 22px;
+}
+
+.goTop{
+   float: right;
+}
+
+.publications_content{
+   float: right;
+   background-color: #fff;
+   height: auto;
+   padding-top: 10px;
+   padding-left: 10px;
+}
+
+.publications_sentence{
+   font-size: 18px;
+   letter-spacing: 1px;
+   padding-bottom: 30px;
+   padding-left: 10px;
+   text-align: justify;
+}

@@ -1,0 +1,22 @@
+<template>
+    <div class="top-logo">
+        
+    </div>
+ </template>
+
+ <script>
+    export default {
+
+    }
+</script>
+
+<style lang="less" scoped>
+.top-logo{
+    background-color: #dcebfe;
+    height: 250px;
+    background-image: url('https://genomicmedicine.github.io/site/images/6963/logo.jpg');
+    background-size: 1120px 245px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+</style>

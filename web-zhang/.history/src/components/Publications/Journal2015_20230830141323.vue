@@ -1,0 +1,41 @@
+<template>
+    <div class="publications_content_year">
+        <div class="publications_content">
+            <ul>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #C45911;">genom</span>]&nbsp;L. Li, H. Peng, S. Tan, J. Zhou, Z. Fang, Z. Hu, L. Gao, T. Li,<b> W. Zhang*</b>, and L. Chen*, Effects of early cold stress on gene expression in Chlamydomonas reinhardtii, <u><i>Genomics</i></u>, 112(2):1128-38, 2020. </li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #2E74B5;">ncRNA</span>]&nbsp;X. Liu, Z. Hu, J. Zhou, C. Tian, G. Tian, M. He, L. Gao, L. Chen, T. Li, P. Peng, <b>W. Zhang*</b>, Interior circular RNA, <u><i>RNA Biology</i></u>, 17(1):87-97, 2020.</li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #4472C4;">ml/dm</span>]&nbsp;M. Li, D. Jin, D. He, and <b>W. Zhang</b>, Modeling with node popularities for autonomous overlapping community detection, <u><i>ACM Transactions on Information Systems</i></u>, 11(3):27, 2020.</li>
+
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #C45911;">genom</span>]&nbsp;S. Climer*, A. Templeton and <b> W. Zhang*</b>, Human gephyrin is encompassed within giant functional noncoding yin-yang sequences, <u><i>Nature Communications</i></u>, 6:6534, 2015. </li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #2E74B5;">ncRNA</span>]&nbsp;D. Nie, J. Xia, C. Jiang, B. Qi, X. Ling, S. Lin, W. Zhang, J. Guo, H. Jin and H. Zhao, Bacillus cereus AR156 primes induced systemic resistance by suppressing miR825/825* and activating defense related genes in Arabidopsis, J. Integrative Plant Biology, 58(4):426-39, 2015. </li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #76923C;">PCMM</span>]&nbsp;</li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #76923C;">PCMM</span>]&nbsp;</li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #76923C;">PCMM</span>]&nbsp;</li>
+                <li class="publications_sentence text_area"><b>·</b>&nbsp;&nbsp;[<span style="color: #76923C;">PCMM</span>]&nbsp;</li>
+
+            </ul>
+        </div>
+    </div>
+
+ </template>
+
+ <script>
+    export default {
+    }
+</script>
+
+<style lang="less" scoped>
+.publications_content_year{
+   float: right;
+   background-color: #fff;
+   height: auto;
+   width: 848px;
+   padding-top: 10px;
+//    padding-left: 10px;
+}
+
+.text_area{
+    cursor: pointer;
+    .hoverShadow();
+}
+</style>

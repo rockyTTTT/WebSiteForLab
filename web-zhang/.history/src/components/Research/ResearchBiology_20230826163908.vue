@@ -1,0 +1,19 @@
+<template>
+    <div class="research-content">
+        <ul>
+            <!-- <li class="research_title">The research projects in the Lab are funded by</li> -->
+            <li class="research_sentence">The work in the Zhang lab in this broad field is mainly computational and falls into the category of Data Sciences (or Big Data). We aim to find and understand biological “stories” through building models and identifying patterns from large quantities of genome-scale biological data. In the process, we integrate the bench work of molecular biology and develop novel methods and efficient software tools along the way. In this broad area, we pursue two overarching themes, network systems biology and gene regulation via noncoding RNA genes. We are interested in basic biological questions (e.g., the biogenesis of small noncoding RNAs, transcriptional and post-transcriptional gene regulation) and their applications to complex diseases (e.g., Alzheimer’s disease (AD) and psoriasis) and plant stress response (e.g., rice blast and rice bacterial blight).</li>
+            <li class="research_sentence">HMRF - Health and Medical Research Fund, Health Bureau, Hong Kong</li>
+            <li class="research_sentence">NSFC - National Natural Science Foundation of China</li>
+        </ul>    
+    </div>
+ </template>
+
+ <script>
+    export default {
+
+    }
+</script>
+
+<style lang="less" scoped>
+</style>
