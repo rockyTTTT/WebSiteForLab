@@ -61,6 +61,7 @@ ul {
    width: 60%;
    padding-top: 72px;
    padding-right: 15%;
+   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
 }
 
 .research_title{

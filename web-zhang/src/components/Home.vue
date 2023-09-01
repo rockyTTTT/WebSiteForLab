@@ -97,6 +97,7 @@
     padding-bottom: 10px;
     margin-bottom: 15px;
     font-size: 20px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
     cursor: pointer;
     ul{
         display: flex;

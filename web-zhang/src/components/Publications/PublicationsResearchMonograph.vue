@@ -19,5 +19,6 @@
 .text_area{
     cursor: pointer;
     .hoverShadow();
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
 }
 </style>

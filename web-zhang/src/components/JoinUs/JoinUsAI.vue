@@ -32,6 +32,7 @@
     background-color: @intervalColor;
 }
 .text_area{
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
     background-color: #fff;
     padding-top: 15px;
     padding-bottom: 10px;

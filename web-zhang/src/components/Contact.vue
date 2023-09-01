@@ -58,6 +58,7 @@
     font-size: 20px;
     cursor: pointer;
     .hoverShadow();
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
     width: 500px;
     padding-top: 15px;
     padding-bottom: 15px;

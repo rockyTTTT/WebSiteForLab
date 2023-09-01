@@ -215,6 +215,7 @@
 
 
 .text_area{
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
     cursor: pointer;
     .hoverShadow();
 }
