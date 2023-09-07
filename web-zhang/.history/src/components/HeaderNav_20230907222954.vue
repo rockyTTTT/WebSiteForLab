@@ -23,11 +23,12 @@
 .header-nav{
     background-color: @navColor;
     border-radius: 5px;
+    height: 58px;
     .header-content{
         padding-left: 15%;
     }
     ul {
-        display: flex;
+        // display: flex;
         height: 54px;
         line-height: 54px;
         // justify-content:center;

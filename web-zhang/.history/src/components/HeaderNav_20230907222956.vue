@@ -23,6 +23,7 @@
 .header-nav{
     background-color: @navColor;
     border-radius: 5px;
+    height: 58px;
     .header-content{
         padding-left: 15%;
     }

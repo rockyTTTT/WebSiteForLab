@@ -14,6 +14,7 @@
 
 <style lang="less" scoped>
 .foot{
+    height: 58px;
     background-color: @footColor;
     border-radius: 5px;
 }

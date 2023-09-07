@@ -23,8 +23,10 @@
                     <br><br>
                     <span class="contact_content">weixiong.zhang [at] polyu.edu.hk</span>
                 </div>
+
                 </div>
             </div>
+
         </div>
     </div>
  </template>

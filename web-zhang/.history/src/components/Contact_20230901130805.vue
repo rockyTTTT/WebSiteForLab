@@ -23,8 +23,17 @@
                     <br><br>
                     <span class="contact_content">weixiong.zhang [at] polyu.edu.hk</span>
                 </div>
+
                 </div>
+                <!-- <div class="text_area">
+                    <span class="contact_title">Phone</span>
+                    <br><br>
+                    <span class="contact_content">+852 3400 8567</span>
+                    <br><br>
+                    <span class="contact_content"><a style="color: #0088CC;" href="https://www.google.com/maps/place/%E9%A6%99%E6%B8%AF%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E6%9D%8E%E5%85%86%E5%9F%BA%E6%A5%BC/@22.3060286,114.1782798,17z/data=!3m1!4b1!4m6!3m5!1s0x340400e7ea4cd421:0xc9fb261caeaaf54a!8m2!3d22.3060237!4d114.1808547!16s%2Fg%2F11b67ll0tq?entry=ttu" target="_blank">show Map</a></span>
+                </div> -->
             </div>
+
         </div>
     </div>
  </template>

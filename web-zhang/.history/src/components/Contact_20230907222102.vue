@@ -25,6 +25,7 @@
                 </div>
                 </div>
             </div>
+
         </div>
     </div>
  </template>
@@ -52,7 +53,7 @@
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
     width: 500px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
     padding-left: 5px;
     padding-right: 5px;
     margin-bottom: 10px;

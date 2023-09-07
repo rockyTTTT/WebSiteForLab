@@ -1,6 +1,6 @@
 <template>
     <div class="foot">
-        <div class="foot_content w">
+        <div class="foot_content">
             Contact: The Hong Kong Polytechnic University Lee Shau Kee Building, BlockY 922, Yuk Choi Rd, Hung Hom, Hong Kong
         </div>
     </div>
@@ -14,11 +14,13 @@
 
 <style lang="less" scoped>
 .foot{
+    height: 58px;
     background-color: @footColor;
     border-radius: 5px;
 }
 .foot_content{
     font-size: 18px;
+    padding-left: 15%;
     color: @timeColor;
     height: 54px;
     line-height: 54px;
