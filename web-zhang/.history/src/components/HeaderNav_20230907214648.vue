@@ -34,7 +34,7 @@
                 color: #096dd9;
             }
             .link{
-                font-size: 20px;
+                font-size: 12px;
                 font-weight: bold;
                 color: #333;
                 padding-left: 48px;

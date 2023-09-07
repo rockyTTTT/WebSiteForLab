@@ -1,6 +1,5 @@
 <template>
-    <div class="header-nav">
-        <div class="w">
+    <div class="header-nav w">
             <ul>
                 <li><RouterLink class="link" to="/">Home</RouterLink></li>
                 <li><RouterLink class="link" to="/research/fund">Research</RouterLink></li>
@@ -9,7 +8,6 @@
                 <li><RouterLink class="link" to="/joinUs/show">Join us</RouterLink></li>
                 <li><RouterLink class="link" to="/contact">Contact</RouterLink></li>
             </ul>
-        </div>
     </div>
  </template>
 
@@ -23,7 +21,7 @@
 .header-nav{
     background-color: @navColor;
     border-radius: 5px;
-    height: 54px;
+    // height: 62px;
     ul {
         display: flex;
         height: 54px;

@@ -1,15 +1,13 @@
 <template>
     <div class="header-nav">
-        <div class="w">
-            <ul>
-                <li><RouterLink class="link" to="/">Home</RouterLink></li>
-                <li><RouterLink class="link" to="/research/fund">Research</RouterLink></li>
-                <li><RouterLink class="link" to="/publications/statement">Publications</RouterLink></li>
-                <li><RouterLink class="link" to="/team">Team</RouterLink></li>
-                <li><RouterLink class="link" to="/joinUs/show">Join us</RouterLink></li>
-                <li><RouterLink class="link" to="/contact">Contact</RouterLink></li>
-            </ul>
-        </div>
+        <ul>
+            <li><RouterLink class="link" to="/">Home</RouterLink></li>
+            <li><RouterLink class="link" to="/research/fund">Research</RouterLink></li>
+            <li><RouterLink class="link" to="/publications/statement">Publications</RouterLink></li>
+            <li><RouterLink class="link" to="/team">Team</RouterLink></li>
+            <li><RouterLink class="link" to="/joinUs/show">Join us</RouterLink></li>
+            <li><RouterLink class="link" to="/contact">Contact</RouterLink></li>
+        </ul>
     </div>
  </template>
 
@@ -21,15 +19,18 @@
 
 <style lang="less" scoped>
 .header-nav{
+    width: 100%;
     background-color: @navColor;
     border-radius: 5px;
-    height: 54px;
+    // height: 62px;
     ul {
         display: flex;
         height: 54px;
         line-height: 54px;
         justify-content: flex-end;
         li{
+            padding-left: 48px;
+            padding-right: 48px;
             a.router-link-exact-active{
                 color: #096dd9;
             }
@@ -37,8 +38,6 @@
                 font-size: 20px;
                 font-weight: bold;
                 color: #333;
-                padding-left: 48px;
-                padding-right: 48px;
                 cursor: pointer;
                 &:hover{
                     color: @highLightColor;

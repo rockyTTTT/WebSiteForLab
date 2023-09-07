@@ -1,5 +1,5 @@
 <template>
-    <div class="header-nav">
+    <div class="header-nav w">
         <div class="w">
             <ul>
                 <li><RouterLink class="link" to="/">Home</RouterLink></li>
@@ -23,7 +23,7 @@
 .header-nav{
     background-color: @navColor;
     border-radius: 5px;
-    height: 54px;
+    // height: 62px;
     ul {
         display: flex;
         height: 54px;

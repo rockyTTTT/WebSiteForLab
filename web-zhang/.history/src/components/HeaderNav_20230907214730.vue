@@ -1,6 +1,5 @@
 <template>
     <div class="header-nav">
-        <div class="w">
             <ul>
                 <li><RouterLink class="link" to="/">Home</RouterLink></li>
                 <li><RouterLink class="link" to="/research/fund">Research</RouterLink></li>
@@ -9,7 +8,6 @@
                 <li><RouterLink class="link" to="/joinUs/show">Join us</RouterLink></li>
                 <li><RouterLink class="link" to="/contact">Contact</RouterLink></li>
             </ul>
-        </div>
     </div>
  </template>
 
