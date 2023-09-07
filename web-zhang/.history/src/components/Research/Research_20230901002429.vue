@@ -64,9 +64,9 @@
 <style lang="less" scoped>
 
 .reseach{
-    // width: 100%;
+    width: 100%;
     background-color: @intervalColor;
-    // display: inline-block;
+    display: inline-block;
 }
 .research_nav{
    line-height: 26px;
