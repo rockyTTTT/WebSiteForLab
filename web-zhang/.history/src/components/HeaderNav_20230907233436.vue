@@ -89,20 +89,5 @@
 
 .nav{
     display: inline;
-    line-height: 64px;
-    padding-right: 48px;
-    padding-left: 48px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-
-    a.router-link-exact-active{
-        color: #096dd9;
-    }
-}
-.link{
-    &:hover{
-        color: @highLightColor;
-    }
 }
 </style>
