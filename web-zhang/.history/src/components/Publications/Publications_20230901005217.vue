@@ -58,9 +58,9 @@
 <style lang="less" scoped>
 
 .publications{
-    // width: 100%;
+    width: 100%;
     background-color: @intervalColor;
-    // display: inline-block;
+    display: inline-block;
 }
 .publications_nav{
    line-height: 26px;
