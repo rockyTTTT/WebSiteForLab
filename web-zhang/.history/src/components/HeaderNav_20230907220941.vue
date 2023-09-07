@@ -25,13 +25,13 @@
     border-radius: 5px;
     height: 58px;
     .header-content{
-        padding-left: 15%;
+        padding-left: 20%;
     }
     ul {
         display: flex;
         height: 54px;
         line-height: 54px;
-        // justify-content:center;
+        justify-content:center
         li{
             a.router-link-exact-active{
                 color: #096dd9;

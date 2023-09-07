@@ -25,7 +25,7 @@
     border-radius: 5px;
     height: 58px;
     .header-content{
-        padding-left: 15%;
+        padding-left: 20%;
     }
     ul {
         display: flex;
