@@ -1,23 +1,25 @@
 <template>
-    <div class="publications">
+    <div class="reseach">
         <div class="content">
-            <div class="publications_nav">
+            <div class="research_nav">
                 <ul>
-                    <li class="title_span"><RouterLink class="research_link" to="/publications/statement">Representative Publications<p style="font-weight: normal; font-size: 18px;">(Total>200)</p></RouterLink></li>
-                    <li class="publications_nav_name"><RouterLink class="research_link" to="/publications/researchMonograph">Research Monograph</RouterLink></li>
-                    <li class="publications_nav_name"><RouterLink class="research_link" to="/publications/journal/all">Selected Journal Publication</RouterLink></li>
-                    <li class="publications_nav_name"><RouterLink class="research_link" to="/publications/peer-reviewed/all">Selected Peer-reviewed Conference Publication</RouterLink></li>
+                    <li class="title_span">Category</li>
+                    <li class="research_nav_name"><RouterLink class="research_link" to="/research/fund">Fund</RouterLink></li>
+                    <li class="research_nav_name"><RouterLink class="research_link" to="/research/biology">Research - Biology, genetics and genomics</RouterLink></li>
+                    <li class="research_nav_name"><RouterLink class="research_link" to="/research/machineLearning">Research - Machine learning/datamining</RouterLink></li>
+                    <li class="research _nav_name"><RouterLink class="research_link" to="/research/interests">Research interests - Heuristic search, planning and optimization</RouterLink></li>
                 </ul>
             </div>
             <router-view/>
         </div>
         <div class="goTop" id = "goTop" @click="goBack">
-        <div>
-            <i class="iconfont icon-top research_icon"></i>
-            <div class="goTop_font">Top</div>
+            <div>
+                <i class="iconfont icon-top research_icon"></i>
+                <div class="goTop_font">Top</div>
+            </div>
         </div>
     </div>
-    </div>
+
 
 
  </template>
@@ -25,9 +27,11 @@
  <script>
     export default {
      methods:{
+
         goBack() {
             // 获取当前距离顶部的距离
             let scrollTop = document.documentElement.scrollTop;
+            console.log('scrollTop',scrollTop);
             let steep = scrollTop / 2000;
             let timer = setInterval(() => {
                 scrollTop -= steep;
@@ -44,9 +48,11 @@
         let clientHeight = document.documentElement.clientHeight || document.body.clientHeight;
         let scrollTop = document.documentElement.scrollTop;
         let goTop = document.getElementById('goTop');
+        console.log('scrollTop',scrollTop);
+        console.log('clientHeight',clientHeight);
         if(goTop != null){
             if (scrollTop > clientHeight) {
-            goTop.style.visibility = "visible";
+                goTop.style.visibility = "visible";
             } else {
                 goTop.style.visibility = "hidden";
             }
@@ -57,19 +63,19 @@
 
 <style lang="less" scoped>
 
-.publications{
+.reseach{
     width: 100%;
     background-color: @intervalColor;
     display: inline-block;
 }
-.publications_nav{
+.research_nav{
    line-height: 26px;
    padding:30px 0 30px 7%;
    display: inline-block;
    width: 200px;
    height: 380px;
 }
-.publications_nav_name{
+.research_nav_name{
     font-size: 18px;
     padding-top: 30px;
     .router-link-exact-active{

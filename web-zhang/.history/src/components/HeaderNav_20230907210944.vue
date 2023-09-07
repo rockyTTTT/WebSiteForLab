@@ -32,12 +32,13 @@
             a.router-link-exact-active{
                 border-bottom: 4px solid @highLightColor;
                 color: #096dd9;
+                
             }
             .link{
                 font-size: 20px;
                 font-weight: bold;
                 color: #333;
-                padding: 8px 48px;
+                padding: 10px 48px;
                 cursor: pointer;
                 &:hover{
                     color: @highLightColor;
