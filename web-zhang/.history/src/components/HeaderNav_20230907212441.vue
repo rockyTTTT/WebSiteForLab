@@ -23,22 +23,22 @@
 .header-nav{
     background-color: @navColor;
     border-radius: 5px;
-    // height: 62px;
+    height: 62px;
     ul {
         display: flex;
         height: 54px;
         line-height: 54px;
-        justify-content: flex-end;
+        justify-content: left;
         li{
             a.router-link-exact-active{
+                border-bottom: 4px solid @highLightColor;
                 color: #096dd9;
             }
             .link{
                 font-size: 20px;
                 font-weight: bold;
                 color: #333;
-                padding-left: 48px;
-                padding-right: 48px;
+                padding: 0px 48px;
                 cursor: pointer;
                 &:hover{
                     color: @highLightColor;

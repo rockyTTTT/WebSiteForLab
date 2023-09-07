@@ -37,8 +37,7 @@
                 font-size: 20px;
                 font-weight: bold;
                 color: #333;
-                padding-left: 48px;
-                padding-right: 48px;
+                padding: 12px 48px;
                 cursor: pointer;
                 &:hover{
                     color: @highLightColor;
