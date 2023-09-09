@@ -1,6 +1,6 @@
 <template>
     <div class="header-nav">123
-        <div class="header-content">456
+        <div class="header-content">
             <ul>
                 <li><RouterLink class="link" to="/">Home</RouterLink></li>
                 <li><RouterLink class="link" to="/research/fund">Research</RouterLink></li>
