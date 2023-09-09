@@ -1,4 +1,4 @@
-const baseSize = 37.5
+const baseSize = 150
 
 function setRem() {
   const scale = document.documentElement.clientWidth / 375
