@@ -104,9 +104,9 @@
         }
     }
 }
-.top_font{
-    font-size: 18px;
-    padding-left: 10%;
-    padding-top: 10%;
+.research_icon{
+    font-size: 30px;
+    color: @highLightColor;
+    padding-left: 15%;
 }
 </style>

@@ -107,6 +107,5 @@
 .top_font{
     font-size: 18px;
     padding-left: 10%;
-    padding-top: 10%;
 }
 </style>
