@@ -32,7 +32,6 @@
     display: flex;
     position: absolute;
     left: 135px;
-    top: 14px;
     justify-content:center;
     li{
         a.router-link-exact-active{

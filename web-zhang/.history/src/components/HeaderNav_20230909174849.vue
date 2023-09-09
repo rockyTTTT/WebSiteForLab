@@ -23,16 +23,12 @@
     border-radius: 5px;
     max-height: 54px;
     min-height: 54px;
-    position: relative;
 }
 
 .header-ul {
-    // padding-top: 14px;
-    // padding-bottom: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     display: flex;
-    position: absolute;
-    left: 135px;
-    top: 14px;
     justify-content:center;
     li{
         a.router-link-exact-active{

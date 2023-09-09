@@ -27,12 +27,11 @@
 }
 
 .header-ul {
-    // padding-top: 14px;
-    // padding-bottom: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     display: flex;
     position: absolute;
-    left: 135px;
-    top: 14px;
+    left: 140px;
     justify-content:center;
     li{
         a.router-link-exact-active{
