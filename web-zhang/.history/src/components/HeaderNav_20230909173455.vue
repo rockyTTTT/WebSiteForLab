@@ -24,12 +24,12 @@
     background-color: @navColor;
     border-radius: 5px;
     width: 100%;
+    height: 200%;
     max-height: 60px;
 }
 
 .header-ul {
     padding-top: 14px;
-    padding-bottom: 14px;
     display: flex;
     justify-content:center;
     li{
