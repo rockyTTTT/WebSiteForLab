@@ -22,7 +22,7 @@
     background-color: @navColor;
     border-radius: 5px;
     // max-height: 54px;
-    min-height: 54px;
+    // min-height: 54px;
     position: relative;
 }
 
