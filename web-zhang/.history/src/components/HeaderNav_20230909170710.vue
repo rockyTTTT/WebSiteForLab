@@ -36,8 +36,7 @@
             a.router-link-exact-active{
                 color: #096dd9;
             }
-            padding-top: 1%;
-            padding-bottom: 1%;
+
             .link{
                 font-size: 20px;
                 font-weight: bold;

@@ -38,6 +38,8 @@
             }
             padding-top: 1%;
             padding-bottom: 1%;
+
+
             .link{
                 font-size: 20px;
                 font-weight: bold;
