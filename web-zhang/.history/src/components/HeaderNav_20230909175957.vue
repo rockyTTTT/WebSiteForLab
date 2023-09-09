@@ -38,6 +38,7 @@
             color: #096dd9;
         }
         .link{
+
             padding-left: 48px;
             padding-right: 48px;
             cursor: pointer;

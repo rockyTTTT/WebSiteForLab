@@ -28,16 +28,16 @@
     // padding-bottom: 14px;
     height: 54px;
     line-height: 54px;
-    display: flex;
+    display: block;
     justify-content:center;
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
     li{
         a.router-link-exact-active{
             color: #096dd9;
         }
         .link{
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
             padding-left: 48px;
             padding-right: 48px;
             cursor: pointer;

@@ -29,7 +29,7 @@
     height: 54px;
     line-height: 54px;
     display: flex;
-    justify-content:center;
+    // justify-content:center;
     font-size: 20px;
     font-weight: bold;
     color: #333;
@@ -38,6 +38,7 @@
             color: #096dd9;
         }
         .link{
+
             padding-left: 48px;
             padding-right: 48px;
             cursor: pointer;
