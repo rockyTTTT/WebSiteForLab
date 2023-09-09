@@ -1,7 +1,7 @@
 module.exports = {
     'plugins' : {
         'postcss-pxtorem' : {
-            rootValue : 130,
+            rootValue : 120,
             propList : ['*']
         }
     }
