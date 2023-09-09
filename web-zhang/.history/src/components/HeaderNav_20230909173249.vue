@@ -26,9 +26,12 @@
     width: 100%;
     height: 54px;
 }
+.header-content{
+    height: 50px;
+}
 
 .header-ul {
-    padding-top: 14px;
+    padding-top: 12px;
     display: flex;
     justify-content:center;
     li{

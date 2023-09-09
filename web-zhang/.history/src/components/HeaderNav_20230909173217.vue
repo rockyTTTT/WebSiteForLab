@@ -24,11 +24,14 @@
     background-color: @navColor;
     border-radius: 5px;
     width: 100%;
-    height: 54px;
+    // height: 60px;
+}
+.header-content{
+    height: 50px;
 }
 
 .header-ul {
-    padding-top: 14px;
+    padding-top: 10px;
     display: flex;
     justify-content:center;
     li{

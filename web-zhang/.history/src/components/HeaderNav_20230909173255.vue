@@ -28,7 +28,7 @@
 }
 
 .header-ul {
-    padding-top: 14px;
+    padding-top: 12px;
     display: flex;
     justify-content:center;
     li{
