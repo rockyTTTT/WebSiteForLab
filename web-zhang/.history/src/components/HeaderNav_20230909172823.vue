@@ -1,7 +1,7 @@
 <template>
     <div class="header-nav">
         <div class="header-content">
-            <ul class="header-ul">
+            <ul>
                 <li><RouterLink class="link" to="/">Home</RouterLink></li>
                 <li><RouterLink class="link" to="/research/fund">Research</RouterLink></li>
                 <li><RouterLink class="link" to="/publications/statement">Publications</RouterLink></li>
@@ -25,29 +25,27 @@
     border-radius: 5px;
     width: 100%;
     // height: 60px;
-}
-.header-content{
-
-}
-
-.header-ul {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content:center;
-    li{
-        a.router-link-exact-active{
-            color: #096dd9;
-        }
-        .link{
-            font-size: 20px;
-            font-weight: bold;
-            color: #333;
-            padding-left: 48px;
-            padding-right: 48px;
-            cursor: pointer;
-            &:hover{
-                color: @highLightColor;
+    .header-content{
+    }
+    ul {
+        display: flex;
+        justify-content:center;
+        li{
+            a.router-link-exact-active{
+                color: #096dd9;
+            }
+            .link{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-size: 20px;
+                font-weight: bold;
+                color: #333;
+                padding-left: 48px;
+                padding-right: 48px;
+                cursor: pointer;
+                &:hover{
+                    color: @highLightColor;
+                }
             }
         }
     }

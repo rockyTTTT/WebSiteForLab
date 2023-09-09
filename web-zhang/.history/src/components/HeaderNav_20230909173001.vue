@@ -1,7 +1,7 @@
 <template>
     <div class="header-nav">
         <div class="header-content">
-            <ul class="header-ul">
+            <ul>
                 <li><RouterLink class="link" to="/">Home</RouterLink></li>
                 <li><RouterLink class="link" to="/research/fund">Research</RouterLink></li>
                 <li><RouterLink class="link" to="/publications/statement">Publications</RouterLink></li>
@@ -30,7 +30,7 @@
 
 }
 
-.header-ul {
+ul {
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
