@@ -1,6 +1,6 @@
 <template>
     <div class="header-nav">
-        <div class="header-content">
+        <!-- <div class="header-content"> -->
             <ul>
                 <li><RouterLink class="link" to="/">Home</RouterLink></li>
                 <li><RouterLink class="link" to="/research/fund">Research</RouterLink></li>
@@ -9,7 +9,7 @@
                 <li><RouterLink class="link" to="/joinUs/show">JoinUs</RouterLink></li>
                 <li><RouterLink class="link" to="/contact">Contact</RouterLink></li>
             </ul>
-        </div>
+        <!-- </div> -->
     </div>
  </template>
 
@@ -24,10 +24,10 @@
     background-color: @navColor;
     border-radius: 5px;
     width: 100%;
-    // height: 60px;
+    height: 60px;
     .header-content{
-        height: 54px;
-        line-height: 54px;
+        // padding-top: 1%;
+        // padding-bottom: 1%;
     }
     ul {
         display: flex;
