@@ -28,7 +28,7 @@
     // height: auto;
     .header-content{
         padding-left: 15%;
-        padding-top: 12px;
+        padding-top: 14px;
     }
     ul {
         display: flex;
