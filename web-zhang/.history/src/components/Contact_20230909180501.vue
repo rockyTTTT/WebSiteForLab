@@ -37,7 +37,7 @@
 <style lang="less" scoped>
 .contact{
     background-color: @intervalColor;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .contact_img{
     width: 690px;

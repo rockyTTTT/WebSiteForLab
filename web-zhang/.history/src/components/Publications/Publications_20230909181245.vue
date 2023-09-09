@@ -14,6 +14,7 @@
         <div class="goTop" id = "goTop" @click="goBack">
         <div>
             <i class="iconfont icon-top research_icon"></i>
+            <div class="goTop_font">Top</div>
         </div>
     </div>
     </div>
