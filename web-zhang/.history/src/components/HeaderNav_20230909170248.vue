@@ -26,8 +26,8 @@
     width: 100%;
     height: 0.4rem;
     .header-content{
-        padding-top: 1%;
-        padding-bottom: 1%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
     }
     ul {
         display: flex;

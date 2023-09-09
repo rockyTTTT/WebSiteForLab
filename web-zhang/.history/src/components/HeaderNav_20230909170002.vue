@@ -24,10 +24,11 @@
     background-color: @navColor;
     border-radius: 5px;
     width: 100%;
-    height: 0.4rem;
+    height: auto;
+    height: 2%;
     .header-content{
-        padding-top: 1%;
-        padding-bottom: 1%;
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
     ul {
         display: flex;
