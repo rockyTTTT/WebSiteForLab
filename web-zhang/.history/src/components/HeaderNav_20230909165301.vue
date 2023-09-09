@@ -23,15 +23,17 @@
 .header-nav{
     background-color: @navColor;
     border-radius: 5px;
-    height: 54px;
+    // height: 54px;
     width: 100%;
     // height: auto;
     .header-content{
-        padding-top: 12px;
-        padding-bottom: 12px;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
     }
     ul {
         display: flex;
+        // height: 100%;
+        // line-height: 100%;
         justify-content:center;
         li{
             a.router-link-exact-active{

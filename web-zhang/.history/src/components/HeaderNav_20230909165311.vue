@@ -23,7 +23,7 @@
 .header-nav{
     background-color: @navColor;
     border-radius: 5px;
-    height: 54px;
+    // height: 54px;
     width: 100%;
     // height: auto;
     .header-content{
@@ -32,6 +32,8 @@
     }
     ul {
         display: flex;
+        // height: 100%;
+        // line-height: 100%;
         justify-content:center;
         li{
             a.router-link-exact-active{

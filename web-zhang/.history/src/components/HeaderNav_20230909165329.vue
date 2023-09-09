@@ -23,7 +23,7 @@
 .header-nav{
     background-color: @navColor;
     border-radius: 5px;
-    height: 54px;
+    // height: 54px;
     width: 100%;
     // height: auto;
     .header-content{
