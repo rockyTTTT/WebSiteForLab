@@ -31,8 +31,8 @@
     }
     ul {
         display: flex;
-        height: 250%;
-        line-height: 250%;
+        height: 100%;
+        line-height: 100%;
         justify-content:center;
         li{
             a.router-link-exact-active{

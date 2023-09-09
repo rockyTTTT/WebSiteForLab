@@ -31,8 +31,8 @@
     }
     ul {
         display: flex;
-        height: 250%;
-        line-height: 250%;
+        height: 200%;
+        line-height: 200%;
         justify-content:center;
         li{
             a.router-link-exact-active{
@@ -43,8 +43,8 @@
                 font-size: 20px;
                 font-weight: bold;
                 color: #333;
-                padding-left: 48px;
-                padding-right: 48px;
+                padding-left: 100%;
+                padding-right: 100%;
                 cursor: pointer;
                 &:hover{
                     color: @highLightColor;

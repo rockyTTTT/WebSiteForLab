@@ -27,12 +27,11 @@
     width: 100%;
     // height: auto;
     .header-content{
-        
     }
     ul {
         display: flex;
-        height: 250%;
-        line-height: 250%;
+        height: 54px;
+        line-height: 54px;
         justify-content:center;
         li{
             a.router-link-exact-active{
