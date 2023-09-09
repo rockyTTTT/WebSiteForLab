@@ -1,15 +1,13 @@
 <template>
     <div class="header-nav">
-        <div class="header-content">
             <ul>
                 <li><RouterLink class="link" to="/">Home</RouterLink></li>
                 <li><RouterLink class="link" to="/research/fund">Research</RouterLink></li>
                 <li><RouterLink class="link" to="/publications/statement">Publications</RouterLink></li>
                 <li><RouterLink class="link" to="/team">Team</RouterLink></li>
-                <li><RouterLink class="link" to="/joinUs/show">JoinUs</RouterLink></li>
+                <li><RouterLink class="link" to="/joinUs/show">Join us</RouterLink></li>
                 <li><RouterLink class="link" to="/contact">Contact</RouterLink></li>
             </ul>
-        </div>
     </div>
  </template>
 
@@ -23,20 +21,16 @@
 .header-nav{
     background-color: @navColor;
     border-radius: 5px;
-    // height: auto;
-    .header-content{
-        padding-left: 15%;
-    }
+    height: 54px;
     ul {
         display: flex;
         height: 54px;
         line-height: 54px;
-        // justify-content:center;
+        justify-content: flex-end;
         li{
             a.router-link-exact-active{
                 color: #096dd9;
             }
-
             .link{
                 font-size: 20px;
                 font-weight: bold;
@@ -51,22 +45,4 @@
         }
     }
 }
-
-// .nav{
-//     display: inline;
-//     line-height: 64px;
-//     padding-right: 48px;
-//     padding-left: 48px;
-//     font-size: 20px;
-//     font-weight: bold;
-//     color: #333;
-//     a.router-link-exact-active{
-//         color: #096dd9;
-//     }
-// }
-// .link{
-//     &:hover{
-//         color: @highLightColor;
-//     }
-// }
 </style>

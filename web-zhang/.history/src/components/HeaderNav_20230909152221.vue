@@ -6,7 +6,7 @@
                 <li><RouterLink class="link" to="/research/fund">Research</RouterLink></li>
                 <li><RouterLink class="link" to="/publications/statement">Publications</RouterLink></li>
                 <li><RouterLink class="link" to="/team">Team</RouterLink></li>
-                <li><RouterLink class="link" to="/joinUs/show">JoinUs</RouterLink></li>
+                <li><RouterLink class="link" to="/joinUs/show">Join us</RouterLink></li>
                 <li><RouterLink class="link" to="/contact">Contact</RouterLink></li>
             </ul>
         </div>
@@ -32,12 +32,7 @@
         height: 54px;
         line-height: 54px;
         // justify-content:center;
-        li{
-            a.router-link-exact-active{
-                color: #096dd9;
-            }
-
-            .link{
+        .link{
                 font-size: 20px;
                 font-weight: bold;
                 color: #333;
@@ -47,8 +42,10 @@
                 &:hover{
                     color: @highLightColor;
                 }
+                .router-link-exact-active{
+                color: #096dd9;
+                }
             }
-        }
     }
 }
 

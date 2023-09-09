@@ -2,12 +2,12 @@
     <div class="header-nav">
         <div class="header-content">
             <ul>
-                <li><RouterLink class="link" to="/">Home</RouterLink></li>
-                <li><RouterLink class="link" to="/research/fund">Research</RouterLink></li>
-                <li><RouterLink class="link" to="/publications/statement">Publications</RouterLink></li>
-                <li><RouterLink class="link" to="/team">Team</RouterLink></li>
-                <li><RouterLink class="link" to="/joinUs/show">JoinUs</RouterLink></li>
-                <li><RouterLink class="link" to="/contact">Contact</RouterLink></li>
+                <RouterLink class="link" to="/"><li>Home</li></RouterLink>
+                <RouterLink class="link" to="/research/fund"><li>Research</li></RouterLink>
+                <RouterLink class="link" to="/publications/statement"><li>Publications</li></RouterLink>
+                <RouterLink class="link" to="/team"><li>Team</li></RouterLink>
+                <RouterLink class="link" to="/joinUs/show"><li>Join us</li></RouterLink>
+                <RouterLink class="link" to="/contact"><li>Contact</li></RouterLink>
             </ul>
         </div>
     </div>
@@ -32,12 +32,7 @@
         height: 54px;
         line-height: 54px;
         // justify-content:center;
-        li{
-            a.router-link-exact-active{
-                color: #096dd9;
-            }
-
-            .link{
+        .link{
                 font-size: 20px;
                 font-weight: bold;
                 color: #333;
@@ -47,8 +42,10 @@
                 &:hover{
                     color: @highLightColor;
                 }
+                a.router-link-exact-active{
+                color: #096dd9;
+                }
             }
-        }
     }
 }
 
