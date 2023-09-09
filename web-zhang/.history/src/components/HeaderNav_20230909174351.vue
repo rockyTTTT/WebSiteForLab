@@ -23,13 +23,12 @@
 .header-nav{
     background-color: @navColor;
     border-radius: 5px;
-    max-height: 54px;
-    min-height: 54px;
+    // width: 100%;
 }
 
 .header-ul {
-    padding-top: 14px;
-    padding-bottom: 14px;
+    // padding-top: 14px;
+    // padding-bottom: 14px;
     display: flex;
     justify-content:center;
     li{
