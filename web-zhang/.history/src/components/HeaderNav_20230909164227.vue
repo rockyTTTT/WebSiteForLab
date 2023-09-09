@@ -26,9 +26,9 @@
     height: 54px;
     width: 100%;
     // height: auto;
-    .header-content{
-        padding-top: 12px;
-    }
+    // .header-content{
+        
+    // }
     ul {
         display: flex;
         height: 100%;
