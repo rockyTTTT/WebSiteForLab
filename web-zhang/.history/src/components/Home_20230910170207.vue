@@ -52,7 +52,7 @@
                     <div class="news_time">2023.7</div>
                     <div class="news_content">Weixiong was interviewed on <b> NOW NEWS, a Hong Kong TV news station </b>>, to discuss the newly funded RGC Strategic Target Grant (STG) funding on developing AI/genomic technologies to diagnose and treat major psychiatric disorders.</div>
                 </ul>
-                <div class="links">
+                <div>
                     <a href="https://news.now.com/home/local/player?newsId=526105&utm_source=nowNewsAppShare&utm_medium=referral" class="news_link news_content_link"  target="_blank">[link to the video 1]</a>
                     <a href="https://news.now.com/home/local/player?newsId=526106&utm_source=nowNewsAppShare&utm_medium=referral" class="news_link news_content_link "  target="_blank">[link to the video 2]</a>
                 </div>
@@ -145,8 +145,6 @@
     }
 }
 
-
-
 .news_content{
         display: inline-block;
         font-size: 20px;
@@ -170,15 +168,8 @@
     margin-bottom: auto;
 }
 
-.links{
-    text-align: center;
-}
-
 .news_link{
     letter-spacing: 1px;
-    padding-left: 20px;
-    padding-right: 20px;
-
     // marg-left: 350px;
     // margin-left: 350px;
     font-size: 18px;

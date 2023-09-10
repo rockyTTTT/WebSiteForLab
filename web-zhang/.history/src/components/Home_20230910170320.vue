@@ -145,7 +145,9 @@
     }
 }
 
-
+.links{
+    text-align: center;
+}
 
 .news_content{
         display: inline-block;
@@ -170,15 +172,8 @@
     margin-bottom: auto;
 }
 
-.links{
-    text-align: center;
-}
-
 .news_link{
     letter-spacing: 1px;
-    padding-left: 20px;
-    padding-right: 20px;
-
     // marg-left: 350px;
     // margin-left: 350px;
     font-size: 18px;
