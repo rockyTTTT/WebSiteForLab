@@ -99,19 +99,21 @@
     border-radius: 2px;
     margin-right: 10px;
     position: sticky;
-    top: 30%;
-    left: 90%;
+    top: 40%;
+    left: 95%;
     visibility: hidden;
     cursor: pointer;
     &:hover{
         background-color: #096dd9;
+        i{
+            color: #fff;
+        }
     }
 }
 .top_font{
     font-size: 18px;
     padding-left: 10%;
     padding-top: 10%;
-    color: @navColor;
 }
 
 </style>
