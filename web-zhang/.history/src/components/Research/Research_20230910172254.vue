@@ -106,10 +106,6 @@
     &:hover{
         background-color: #096dd9;
     }
-    &:visited{
-        background-color:#fff;
-    }
-
 }
 .top_font{
     font-size: 18px;
