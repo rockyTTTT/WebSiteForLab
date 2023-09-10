@@ -172,13 +172,13 @@
 
 .links{
     text-align: center;
-    font-size: 18px;
 }
 
 .news_link{
     letter-spacing: 1px;
     padding-left: 20px;
     padding-right: 20px;
+    // font-size: 18px;
     font-weight: lighter;
     color: @navColor;
 }
