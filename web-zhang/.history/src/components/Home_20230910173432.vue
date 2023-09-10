@@ -171,6 +171,7 @@
 
 .links{
     text-align: center;
+    font-size: 18px;
 }
 
 .news_link{
